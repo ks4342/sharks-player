@@ -35,6 +35,10 @@ nav ul li{
     align-items: center;
     font-weight: bolder;
     font-size: 1.3rem;
+    
+}
+.brand img{
+    border-radius: 30px;;
 }
 
 .container{
@@ -117,8 +121,19 @@ nav ul li{
     transition: opacity 0.4s ease-in;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 400px) {
     body {
-      background-color: red;
+      background-color: seagreen;
+
     }
+    
+.icons{
+    margin-top: 54px; 
+}
+.songInfo{
+    margin:20vh 5vh;
+
+}
+
+
   }
