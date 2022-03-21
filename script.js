@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Back in Black AC/DC", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Highway to hell AC/DC", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Back in Black - AC/DC", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Highway to hell - AC/DC", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Perfect - ED sheeran", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Alone Marshmellow", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Dance in the dark AuRa", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Faded- Alan Wallker", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Closer Chainsmokers", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Beliver Imagine Dragons", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Dance in the dark - AuRa", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Faded - Alan Wallker", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Closer - Chainsmokers", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Beliver - Imagine Dragons", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
     {songName: "Shape of you - ED sheeran", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Venom Eminem", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Venom - Eminem ", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 

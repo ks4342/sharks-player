@@ -1,2 +1,2 @@
-# sharks-player
-A music player clone made with HTML css and javascript
+# Shark'S-player
+A music player made with HTML css and javascript
