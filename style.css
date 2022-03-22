@@ -61,9 +61,9 @@ nav ul li{
 }
 
 .bottom{
-    position: sticky;
+    position: static;
 
-    height: 15vh;
+    height: 90px;
     background: rgba(255, 255, 255, .4);
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(60px);
@@ -74,55 +74,44 @@ nav ul li{
     flex-direction: column; 
 }
 
-.icons{
-    margin-top: 14px; 
-}
+
 .icons i{
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 #myProgressBar{
     width: 80vw; 
     cursor: pointer;
+    margin-top: 30px;
 }
 
 
 
 .songItem{
     height: 8vh;
-   
+    width: auto;
     display: flex;
-    background: rgba(255, 255, 255, .3);
-	-webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(60px);
     
     
     color: black;
     margin-top: 30px;
-    margin-right: 2%;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: nowrap;
+
+
+
     border-radius: 30px;
 }
 .songItem i{
-    margin-right: 20px;
+    margin-left: 40px;
 }
 
 .songItem img{
-    width: 43px;
-    margin: 0 23px;
+    width: 50px;
+  margin-right:50px ;
     border-radius: 34px;
 }
 
-.timeStamp{
-    margin: 0 23px;
-}
 
-.timeStamp i{
-    cursor: pointer;
-    margin: 0 2px;
-}
 
 .songInfo{
     position: absolute;
@@ -138,12 +127,17 @@ nav ul li{
 
 @media only screen and (max-width: 400px) {
     body {
-      background-color: rgb( 255, 87, 51);
+        background: #1A2980;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+
+
 
     }
     
 .icons{
-    margin-top: 54px; 
+    margin-top: 25px; 
 }
 .songInfo{
     margin:5vh;
@@ -152,7 +146,7 @@ nav ul li{
 .bottom{
     position: sticky;
     bottom: 0;
-    height: 95px;
+    height: 80px;
     background: rgba(255, 255, 255, .4);
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(60px);
